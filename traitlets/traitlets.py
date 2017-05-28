@@ -1694,7 +1694,7 @@ class Instance(ClassBasedTraitType):
 
         This trait allows values that are instances of a particular
         class or its subclasses.  Our implementation is quite different
-        from that of enthough.traits as we don't allow instances to be used
+        from that of enthought.traits as we don't allow instances to be used
         for klass and we handle the ``args`` and ``kw`` arguments differently.
 
         Parameters
