@@ -304,7 +304,7 @@ and no spaces.
 .. versionadded:: 4.3
 
     The environement variable ``TRAITLETS_APPLICATION_RAISE_CONFIG_FILE_ERROR``
-    to ``'1'`` or ``'true'`` to change the defautl value of ``raise_config_file_errors``.
+    to ``'1'`` or ``'true'`` to change the default value of ``raise_config_file_errors``.
 
 
 Common Arguments
