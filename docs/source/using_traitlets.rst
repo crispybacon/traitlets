@@ -19,13 +19,13 @@ value generation of attributes on :class:``traitlets.HasTraits``
 subclasses:
 
 .. code:: python
-
+    from traitlets import Unicode
     import getpass
 
     class Identity(HasTraits):
         username = Unicode()
 
-        @default('username')
+        @default
         def _default_username(self):
             return getpass.getuser()
 
