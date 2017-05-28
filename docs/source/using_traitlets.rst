@@ -21,6 +21,7 @@ subclasses:
 .. code:: python
 
     import getpass
+    from traitlets import default, Unicode
 
     class Identity(HasTraits):
         username = Unicode()
